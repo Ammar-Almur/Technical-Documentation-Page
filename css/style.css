@@ -30,6 +30,11 @@ body {
   border-style: solid;
   height: 40px;
   line-height: 40px;
+  transition: 0.5s;
+}
+.sidebar .links a:hover {
+  background-color: #f7f7f7;
+  font-size: 18px;
 }
 .content {
   width: 70%;
